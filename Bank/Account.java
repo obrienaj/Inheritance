@@ -11,9 +11,8 @@
 
 public class Account
 {
-    private double bal;  //The current balance
-    private int accnum;  //The account number
-    
+    protected double bal;  //The current balance
+    protected int accnum;  //The account number
     
     public Account(int a)
     {    
